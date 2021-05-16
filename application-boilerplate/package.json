@@ -62,5 +62,19 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    }
+    },
+    "keywords": [
+        "React",
+        "ReactJs",
+        "Boilerplate",
+        "Seed",
+        "Typescript",
+        "Javascript",
+        "NodeJs",
+        "Module",
+        "Modularization",
+        "webpack",
+        "styled component",
+        "Application shell"
+    ]
 }

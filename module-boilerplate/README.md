@@ -127,9 +127,9 @@ To make reusable library or module please follow below guideline
   - Run npm run build and npm pack
   - Create a new branch in your repo
   - Upload pack file and extract or upload extracted file contents directly
-  - Now run below command to install in your application or any other module 
-    - Syntax : npm run REPO\_NAME#BRANCH\_NAME
-    - As example: npm run git+https://git.codersbucket.com/structure/reactbase.git#packages/core-config-utils
+  - To install module package in application please follow below command
+    - From npm package repo. As example: npm run @mdrajibul/react-module-boilerplate
+    - From local disk : npm run file: PATH/YOUR\_FILE\*.tar.gz
 ### **General Guideline**
 - Try to write module code as much as clean and qualityful.
 - Please add index.ts file in all folder to avoid sub-module import. Export all subordinate files in that file. As a summary there should be a main index.ts file in root folder which will be call from main application/module
